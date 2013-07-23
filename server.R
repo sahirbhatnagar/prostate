@@ -53,8 +53,6 @@ shinyServer(function(input, output, session) {
     } else { surv_base_life<-lifedata[max(surv_row_life),2]
     }
     
-    #comment
-    
     #calculate conditional probabilities
     lifedata$new_surv<-sapply(lifedata$surv,function(x) min(1,x/surv_base_life))
     #get rid of 1st year anomaly
