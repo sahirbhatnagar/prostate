@@ -1,0 +1,9 @@
+Region,	Number
+East, 1
+North East, 2
+Central East, 3
+Central West, 4
+South East, 5
+South West, 6
+North West, 7
+South, 8
