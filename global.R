@@ -1,7 +1,5 @@
 library(shiny)
-library(datasets)
 library(ggplot2)
-library(emdbook)
 library(googleVis)
 
 # We tweak the "am" field to have nicer factor labels. Since this doesn't
