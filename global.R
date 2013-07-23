@@ -27,3 +27,5 @@ names(lifedata)<-c("time", "surv")
 #hazard ratios
 beta_age<-0.0392083643
 beta_cirs<-0.1352950048
+
+#add a new comment here
