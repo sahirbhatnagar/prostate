@@ -4,7 +4,7 @@ library(shiny)
 shinyUI(pageWithSidebar(
   
   # Application title
-  headerPanel("Life Expectancy Prediction tool for Curative Prostate Cancer Patients"),
+  headerPanel("Life Expectancy Prediction tool for Prostate Cancer Patients"),
   
   # Sidebar with controls to select the variable to plot against mpg
   # and to specify whether outliers should be included
