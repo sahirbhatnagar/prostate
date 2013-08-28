@@ -8,7 +8,7 @@ library(googleVis)
 # value throughout the lifetime of the application
 #C:/Users/Sahir/Dropbox/Thesis/sahir R code/
 #Import and manipulate data to include ageexit times, and make 1st observation survival prob=1
-cumbase<-read.csv("cumbase_strat_99.csv", header=T)
+cumbase<-read.csv("cumbase_all_99.csv", header=T)
 cumbase<-cumbase[,-3]
 acases99<-read.csv("acases_99.csv", header=T)
 regions<-read.table("regions.txt", header=T, sep=",")
