@@ -1,7 +1,5 @@
 library(shiny)
-library(datasets)
 library(ggplot2)
-library(emdbook)
 library(googleVis)
 
 # We tweak the "am" field to have nicer factor labels. Since this doesn't
@@ -27,3 +25,5 @@ names(lifedata)<-c("time", "surv")
 #hazard ratios
 beta_age<-0.0392083643
 beta_cirs<-0.1352950048
+
+
